@@ -1,0 +1,14 @@
+UHTS DUE Modbus Mapping 
+Because the simplemodbus library only supports functions 3 and 16, even boolean values 
+are stored as analogue holding registers.
+
+40001	On/Off	(0001/0000)
+40002	Error thermocouple 1(surface)	(0001/0000)
+40003	Error thermocouple 2(heater)	(0001/0000)
+40004	Error thermocouple 3(core)	(0001/0000)
+40005	Temperature Setpoint	(0-65535)
+40006	Temperature surface	(0-65535)
+40007	Temperature heater	(0-65535)
+40008	Temperature core	(0-65535)
+40009	Power input	(0-4096)
+	
