@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name UHTS)(type KiCad)(uri /home/m/KiCad/myLibraries/UHTS.pretty)(options "")(descr ""))
+)
