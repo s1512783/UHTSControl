@@ -73,17 +73,17 @@ Text Label 1850 2200 0    60   ~ 0
 GND
 Text Label 1850 2100 0    60   ~ 0
 VIN
-Text Label 1400 1900 0    60   ~ 0
-CS1
-Text Label 1400 1800 0    60   ~ 0
-CS2
-Text Label 1400 1700 0    60   ~ 0
-CS3
 Text Label 1400 1600 0    60   ~ 0
-CS4
+CS1
 Text Label 1400 1500 0    60   ~ 0
-CS5
+CS2
 Text Label 1400 1400 0    60   ~ 0
+CS3
+Text Label 1400 1300 0    60   ~ 0
+CS4
+Text Label 1400 1200 0    60   ~ 0
+CS5
+Text Label 1400 1100 0    60   ~ 0
 CS6
 $Comp
 L LM317L_TO92 U1
@@ -345,11 +345,11 @@ Wire Wire Line
 Connection ~ 2700 1300
 Text Label 1400 2000 0    60   ~ 0
 CS0
-Text Label 1400 1100 0    60   ~ 0
+Text Label 1400 1700 0    60   ~ 0
 SDI
-Text Label 1400 1200 0    60   ~ 0
+Text Label 1400 1800 0    60   ~ 0
 SDO
-Text Label 1400 1300 0    60   ~ 0
+Text Label 1400 1900 0    60   ~ 0
 SCK
 $Sheet
 S 7150 1200 600  700 
